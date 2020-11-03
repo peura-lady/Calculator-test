@@ -1,90 +1,96 @@
+body{
+    margin: 40px !important;
+}
 .container{
     margin-top: 60px;
- }
- .panelBody{
-     background-color: #fff;
-     /* width: 870px !important; */
-     border: 1px solid #87CEFA;
- }
- input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+    max-width: 780px !important;
+    margin: 0 auto;
 }
- .colPad{
-     padding-top: 40px;
-     padding-left: 70px;
- }
- .calculator-btn{
-     margin-top: 35px;   
- }
- .panelBody{
-    background-color: #fff;
-    border: 1px solid #87CEFA;
+/* .fas-op{
+    display: none !important;
+} */
+h2{
+    font-size: 18px !important;
+}
+input{
+    outline: none;
 }
 .inputCss{
     background-color: #6495E0;
     border: none; 
     margin-right: 30px;
 }
- .fas-op{
-     display: none !important;
- }
- .col-calculator{
-     padding-left: 47px;
-     padding-top: 24px;
- }
- .rowPadNum{
-     padding: 5px;
-     width: 261px;
- }
- .btn-primary{
-     border-radius: 50% !important;
-     background-color: #afeeee !important;
-     color: #000 !important;
-     font-size: 18px !important;
- }
- .btn.btn-primary{
-     border: 8px solid #1E90FF !important;
-     width: 23%;
- }
- .btn-primary-options{
-     background-color: #fff;
- }
- .fas{
-     background-color: #fff;
-     color: #000;
-     border-radius: 5px;
-     width: 100%;
- }
- .btn{
-     border: 1px solid #000 !important;
-     margin: 5px
- } 
- .btn-info{
-     color: #000 !important;
-     background-color: #afeeee !important;
-     border-color: transparent !important;
-     border-radius: 0px !important;
-     text-transform: uppercase !important;
-     font-size: 12px !important;
-     padding: 10px !important;
-     width: 80%;
-     margin-bottom: 30px !important;
- }
- 
- .resultCss{
-     border: none;
-     border-bottom: 2px solid #0000CC;
-     width: 93.5%;
-     padding: 37px
- }
- .inputswrapper {
-     position: relative;
- }
- 
- #operation {
-     position: absolute;
-     left: 50%;
-     transform: translateX(-50%);
- }
+
+.panelBody{
+    background-color: #fff;
+    border: 1px solid #87CEFA;
+   
+}
+.colPad{
+    padding-top: 40px;
+    padding-left: 40px;
+    /* padding-left: 70px; */
+}
+.calculator-btn{
+    margin-top: 35px;   
+}
+.col-calculator{
+    /* padding-left: 47px; */
+    padding-top: 24px;
+}
+.column{
+    display: flex;
+}
+.rowPadNum{
+    padding: 5px;
+    width: 261px;
+}
+.btn-primary{
+    border-radius: 50% !important;
+    background-color: #afeeee !important;
+    color: #000 !important;
+    font-size: 18px !important;
+}
+.btn.btn-primary{
+    border: 8px solid #1E90FF !important;
+    width: 23%;
+}
+.btn-primary-options{
+    background-color: #fff;
+}
+.fas{
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    width: 100%;
+}
+.btn{
+    border: 1px solid #000 !important;
+    margin: 5px;
+}
+.btn-info{
+    color: #000 !important;
+    background-color: #afeeee !important;
+    border-color: transparent !important;
+    border-radius: 0px !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+    padding: 10px !important;
+    width: 80%;
+    margin-bottom: 30px !important;
+}
+.resultCss{
+    border: none;
+    border-bottom: 2px solid #0000CC;
+    width: 100%;
+    padding: 37px
+}
+.inputswrapper {
+    position: relative;
+}
+
+#operation {
+    position: absolute;
+    left: 218px;
+    bottom: 5px;
+}
