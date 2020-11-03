@@ -6,9 +6,6 @@ body{
     max-width: 780px !important;
     margin: 0 auto;
 }
-/* .fas-op{
-    display: none !important;
-} */
 h2{
     font-size: 18px !important;
 }
@@ -20,22 +17,18 @@ input{
     border: none; 
     margin-right: 30px;
 }
-
 .panelBody{
     background-color: #fff;
     border: 1px solid #87CEFA;
-   
 }
 .colPad{
     padding-top: 40px;
     padding-left: 40px;
-    /* padding-left: 70px; */
 }
 .calculator-btn{
     margin-top: 35px;   
 }
 .col-calculator{
-    /* padding-left: 47px; */
     padding-top: 24px;
 }
 .column{
@@ -88,7 +81,6 @@ input{
 .inputswrapper {
     position: relative;
 }
-
 #operation {
     position: absolute;
     left: 218px;

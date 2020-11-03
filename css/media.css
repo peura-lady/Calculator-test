@@ -1,0 +1,115 @@
+@media (max-width: 1017px){
+    .resultCss {
+        width: 102%;
+    }
+ }
+ @media (max-width: 991px){
+      .col-calculator {
+         padding-left: 155px !important;
+     }
+     .resultCss {
+         width: 150%;
+     }
+ }
+ @media (max-width: 870px){
+     .resultCss {
+         width: 133%;
+     }
+     #operation {
+         left: 213px;
+     }
+     .colPad {
+         padding-left: 0px;
+     }
+     .col-calculator {
+         padding-left: 110px !important;
+     }
+     .container {
+         max-width: 745px !important;
+     }
+ }
+ @media (max-width: 787px){
+     .resultCss {
+         width: 143%;
+     }
+ }
+ @media (max-width: 782px){
+     .resultCss {
+         width: 145%;
+     }
+ }
+ @media (max-width: 770px){
+     .col-calculator {
+         padding-left: 85px !important;
+     }
+     .resultCss {
+         width: 164%;
+     }
+     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+         width: 0 auto !important;
+     }
+     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+         width: 70% !important;
+     }
+ }
+ @media (max-width: 726px){
+     .inputCss {
+         margin-right: 16px;
+     }
+     #operation {
+         left: 208px;
+     }
+ }
+ @media (max-width: 719px){
+     .panelBody {
+         border: none;
+     }
+     .resultCss {
+         width: 100%;
+         padding: 14px;
+     }
+     .colPad{
+         padding-top: 0;
+         padding-left: 40px;
+     }
+     .col-calculator {
+         padding-top: 0px;
+         padding-left: 0px !important;
+     }
+     .col{
+         display: contents;
+     }
+     .inputCss {
+         margin-right: 0px;
+         width: 100px;
+         height: 19px;
+     }
+     #operation {
+         left: 122px;
+     }
+     h2 {
+         font-size: 13px !important;
+     }
+     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+         width: 0 auto !important;
+     }
+     .rowPadNum {
+         width: 270px;
+     }
+ }
+ @media (max-width: 570px){
+     .col-calculator {
+         padding-left: 10px !important;
+     }
+     body {
+         margin: 0px !important;
+     }
+     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+         padding-right: 0px !important;
+         padding-left: 0px !important;
+     }
+     .colPad {
+         padding-top: 30px;
+         padding-left: 23px;
+     }
+ }
