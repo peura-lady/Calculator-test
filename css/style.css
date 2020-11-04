@@ -16,6 +16,7 @@ input{
     background-color: #6495E0;
     border: none; 
     margin-right: 30px;
+    font-size: 12px;
 }
 .panelBody{
     background-color: #fff;
