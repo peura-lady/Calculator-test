@@ -1,13 +1,13 @@
 body{
-    margin: 40px !important;
+    margin: 40px;
 }
 .container{
     margin-top: 60px;
-    max-width: 780px !important;
+    max-width: 780px;
     margin: 0 auto;
 }
 h2{
-    font-size: 18px !important;
+    font-size: 18px;
 }
 input{
     outline: none;
@@ -40,13 +40,13 @@ input{
     width: 261px;
 }
 .btn-primary{
-    border-radius: 50% !important;
-    background-color: #afeeee !important;
-    color: #000 !important;
-    font-size: 18px !important;
+    border-radius: 50%;
+    background-color: #afeeee;
+    color: #000;
+    font-size: 18px;
 }
 .btn.btn-primary{
-    border: 8px solid #1E90FF !important;
+    border: 8px solid #1E90FF;
     width: 23%;
 }
 .btn-primary-options{
@@ -59,24 +59,24 @@ input{
     width: 100%;
 }
 .btn{
-    border: 1px solid #000 !important;
+    border: 1px solid #000;
     margin: 5px;
 }
 .btn-info{
-    color: #000 !important;
-    background-color: #afeeee !important;
-    border-color: transparent !important;
-    border-radius: 0px !important;
-    text-transform: uppercase !important;
-    font-size: 12px !important;
-    padding: 10px !important;
+    color: #000;
+    background-color: #afeeee;
+    border-color: transparent;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px;
     width: 80%;
-    margin-bottom: 30px !important;
+    margin-bottom: 30px;
 }
 .resultCss{
     border: none;
     border-bottom: 2px solid #0000CC;
-    width: 100%;
+    width: 88%;
     padding: 37px
 }
 .inputswrapper {
