@@ -10,9 +10,6 @@
      .resultCss {
          width: 116%;
      }
-     #operation {
-         left: 213px;
-     }
      .colPad {
          padding-left: 0px;
      }
@@ -42,9 +39,6 @@
  @media (max-width: 726px){
      .inputCss {
          margin-right: 16px;
-     }
-     #operation {
-         left: 208px;
      }
  }
  @media (max-width: 719px){
