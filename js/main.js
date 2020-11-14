@@ -1,6 +1,3 @@
-
-onLoad="document.getElementById('leave').options[0].selected = 'selected';"
-
 let selectedInput = null
 let selectedOperation = null
 
